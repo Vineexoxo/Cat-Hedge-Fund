@@ -4,12 +4,12 @@ export const bentoCard =
 export const cultureValues = [
   {
     n: "01",
-    title: "Sunbeam priority",
+    title: "Priority",
     desc: "We chase what actually warms the desk: clarity over clutter, naps over noise.",
   },
   {
     n: "02",
-    title: "Territorial clarity",
+    title: "Clarity",
     desc: "Every position is defended or abandoned with the same ruthless honesty.",
   },
   {
@@ -19,12 +19,12 @@ export const cultureValues = [
   },
   {
     n: "04",
-    title: "Integrity of instinct",
+    title: "Integrity",
     desc: "If the thesis does not survive a single stare, we do not trade it.",
   },
   {
     n: "05",
-    title: "Accountability to the bowl",
+    title: "Accountability",
     desc: "We answer to outcomes, not slide decks, preferably before dinner.",
   },
   {

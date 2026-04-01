@@ -16,9 +16,7 @@ export function HomeHero() {
           Aloo Tikki Hedge Fund
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
-          We operate where trading meets technology—with engineers, cats, and
-          algorithms. We work with people who have too much money but too little
-          time. Indian markets, feline intuition.
+          Got way too much money but too little time? We're here to help. We trade in the Indian market. Leverage the pure instinct of feline intuition.
         </p>
         <div className="mt-8 flex flex-col items-center gap-2">
           <p className="text-sm font-medium text-foreground md:text-base">
@@ -29,7 +27,7 @@ export function HomeHero() {
               className="size-2 shrink-0 rounded-full bg-foreground"
               aria-hidden
             />
-            <span>Currently napping / markets active</span>
+            <span>Currently Napping / Markets Active</span>
           </div>
         </div>
         <p className="mt-8">

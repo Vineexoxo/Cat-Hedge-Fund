@@ -74,8 +74,8 @@ export default function WhoWeArePage() {
                 spreadsheets. From our headquarters in a carpet-adjacent suite
                 (with satellite presence near the kitchen), we pursue a singular
                 ambition: to be recognized among the world&apos;s foremost
-                paw-prietary desks for conviction, curiosity, and carefully
-                rationed kibble. We do not race the exchange clock; we outwait
+                proprietary desks for conviction, curiosity, and carefully
+                rationed treats. We do not race the exchange clock; we outwait
                 it.
               </p>
             </CardContent>
