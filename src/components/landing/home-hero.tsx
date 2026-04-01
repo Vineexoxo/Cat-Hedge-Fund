@@ -42,18 +42,18 @@ export function HomeHero() {
         </p>
       </div>
 
-      <div className="mx-auto mt-14 grid w-full max-w-5xl grid-cols-1 gap-8 sm:grid-cols-3 sm:gap-6 md:mt-20">
+      <div className="mx-auto mt-14 grid w-full max-w-3xl grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-4 md:mt-20">
         {catPanels.map((panel) => (
           <div
             key={panel.src}
-            className={`relative flex aspect-square items-center justify-center rounded-lg border border-border bg-muted/30 p-6 ${panel.className}`}
+            className={`relative flex aspect-square min-h-0 w-full items-center justify-center rounded-md border border-foreground/30 bg-muted/5 p-1 ${panel.className}`}
           >
             <Image
               src={panel.src}
               alt={panel.alt}
-              width={280}
-              height={280}
-              className="h-auto max-h-[min(240px,40vw)] w-full max-w-[240px] object-contain"
+              width={400}
+              height={400}
+              className="h-full w-full object-contain"
               priority
             />
           </div>
