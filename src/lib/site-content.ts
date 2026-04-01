@@ -46,9 +46,9 @@ export const careerRoles = [
 ] as const;
 
 export const whitelistRows = [
-  { name: "TCS", ticker: "MEOW", price: "₹3,842.10", rating: "High Pawsitivity" },
-  { name: "Reliance", ticker: "PURR", price: "₹2,891.55", rating: "Whisker-Weighted" },
-  { name: "HDFC Bank", ticker: "KIBL", price: "₹1,654.20", rating: "Nap-Approved" },
-  { name: "Infosys", ticker: "PRRR", price: "₹1,498.00", rating: "Laser Focus" },
-  { name: "Hind. Unilever", ticker: "WHISK", price: "₹2,340.75", rating: "High Pawsitivity" },
+  { name: "TCS", ticker: "MEOW-1", price: "₹ ???", rating: "Meow" },
+  { name: "Reliance", ticker: "PURR", price: "₹ ???", rating: "Meow" },
+  { name: "HDFC Bank", ticker: "MEOW-2", price: "₹ ???", rating: "Meow" },
+  { name: "Infosys", ticker: "PRRR", price: "₹ ???", rating: "Meow" },
+  { name: "Hind. Unilever", ticker: "MEOW-3", price: "₹ ???", rating: "Meow" },
 ] as const;
