@@ -2,7 +2,7 @@ export function AlphaChartStub() {
   return (
     <div className="relative flex min-h-[220px] flex-1 flex-col">
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-        <span className="text-5xl font-semibold tracking-tight text-foreground/90 md:text-6xl">
+        <span className="text-5xl font-medium tracking-tight text-foreground/90 md:text-6xl">
           +342% Alpha
         </span>
       </div>

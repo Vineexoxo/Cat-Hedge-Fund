@@ -9,19 +9,19 @@ const nav = [
 export function SiteHeader() {
   return (
     <header className="w-full border-b border-border bg-background">
-      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-4 md:h-16 md:px-6 lg:px-8">
+      <div className="mx-auto flex min-h-[4.25rem] max-w-6xl flex-col justify-center gap-2.5 px-4 py-2.5 sm:min-h-0 sm:h-16 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:py-0 md:h-[4.75rem] md:px-6 lg:h-20 lg:px-8">
         <Link
           href="/"
-          className="text-sm font-semibold tracking-tight text-foreground transition-colors hover:text-foreground/80 md:text-base"
+          className="shrink-0 text-lg font-medium leading-snug tracking-tight text-foreground transition-colors hover:text-foreground/80 sm:text-base md:text-lg lg:text-xl"
         >
           Aloo Tikki Hedge Fund
         </Link>
-        <nav className="flex flex-wrap items-center justify-end gap-x-4 gap-y-1 text-xs font-medium text-muted-foreground md:gap-x-8 md:text-sm">
+        <nav className="flex flex-wrap items-start gap-x-4 gap-y-2.5 text-base font-medium leading-snug text-muted-foreground sm:items-center sm:justify-end sm:gap-x-5 sm:text-sm md:gap-x-7 md:text-base lg:gap-x-9">
           {nav.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="transition-colors hover:text-foreground"
+              className="py-0.5 transition-colors hover:text-foreground sm:py-0"
             >
               {item.label}
             </Link>

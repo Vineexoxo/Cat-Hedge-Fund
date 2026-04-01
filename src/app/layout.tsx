@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { JetBrains_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-geist-sans",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
   display: "swap",
 });
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${jetbrainsMono.variable} h-full scroll-smooth antialiased`}
+      className={`${montserrat.variable} ${jetbrainsMono.variable} h-full scroll-smooth antialiased`}
     >
       <body className="flex min-h-dvh flex-col overflow-x-clip bg-background font-sans">
         <div className="flex min-h-dvh flex-1 flex-col">{children}</div>

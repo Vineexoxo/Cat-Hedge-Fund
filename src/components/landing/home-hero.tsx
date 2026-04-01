@@ -12,7 +12,7 @@ export function HomeHero() {
   return (
     <div className="flex min-h-[min(100dvh,900px)] flex-col justify-center px-4 py-16 md:px-6 md:py-20 lg:px-8">
       <div className="mx-auto w-full max-w-4xl text-center">
-        <h1 className="font-heading text-4xl font-semibold tracking-tight text-foreground md:text-5xl lg:text-6xl">
+        <h1 className="font-heading text-4xl font-medium tracking-tight text-foreground md:text-5xl lg:text-6xl">
           Aloo Tikki Hedge Fund
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">

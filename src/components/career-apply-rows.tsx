@@ -31,7 +31,7 @@ export function CareerApplyRows({ roles }: { roles: readonly Role[] }) {
 
   useEffect(() => {
     if (!open) return;
-    const t = window.setTimeout(() => setOpen(false), 1500);
+    const t = window.setTimeout(() => setOpen(false), 1000);
     return () => window.clearTimeout(t);
   }, [open]);
 
@@ -70,10 +70,7 @@ export function CareerApplyRows({ roles }: { roles: readonly Role[] }) {
         >
           <p
             id="rejection-title"
-            className="pointer-events-none max-w-[min(100%,42rem)] select-none text-center text-4xl leading-tight font-bold tracking-tight text-red-600 sm:text-6xl md:text-7xl lg:text-8xl"
-            style={{
-              fontFamily: "'Comic Sans MS', 'Comic Sans', 'Chalkboard SE', cursive",
-            }}
+            className="font-sans pointer-events-none max-w-[min(100%,42rem)] select-none text-center text-2xl leading-tight font-normal tracking-tight text-red-600 sm:text-3xl md:text-4xl lg:text-5xl"
           >
             Underqualified, Rejected!
           </p>
