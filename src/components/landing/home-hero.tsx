@@ -29,7 +29,7 @@ export function HomeHero() {
               className="size-2 shrink-0 rounded-full bg-foreground"
               aria-hidden
             />
-            <span>Currently napping, markets active</span>
+            <span>Currently napping / markets active</span>
           </div>
         </div>
         <p className="mt-8">
