@@ -92,11 +92,11 @@ export default function WhatWeDoPage() {
                       Listed Name
                     </TableHead>
                     <TableHead className="text-muted-foreground">
-                      Tikki Ticker
+                       Ticker
                     </TableHead>
                     <TableHead className="text-muted-foreground">Price</TableHead>
                     <TableHead className="text-muted-foreground">
-                      Tikki Rating
+                       Rating
                     </TableHead>
                   </TableRow>
                 </TableHeader>
