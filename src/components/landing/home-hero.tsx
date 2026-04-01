@@ -22,7 +22,7 @@ export function HomeHero() {
         </p>
         <div className="mt-8 flex flex-col items-center gap-2">
           <p className="text-sm font-medium text-foreground md:text-base">
-            Aloo Tikki, Senior Most Quant
+            Aloo Tikki, Senior Quantitative Researcher
           </p>
           <div className="flex items-center gap-2 text-xs text-muted-foreground md:text-sm">
             <span
