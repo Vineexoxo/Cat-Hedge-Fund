@@ -34,8 +34,7 @@ export default function WhoWeArePage() {
           >
             <CardContent className="flex flex-1 flex-col items-center justify-center gap-4 pt-6 pb-2">
               <Avatar
-                className="size-44 border border-border md:size-52"
-                size="lg"
+                className="!size-44 border border-border md:!size-44"
               >
                 <AvatarImage
                   src={catImages.cioPortrait}
