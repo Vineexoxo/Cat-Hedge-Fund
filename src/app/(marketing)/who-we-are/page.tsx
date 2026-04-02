@@ -64,7 +64,7 @@ export default function WhoWeArePage() {
                 About Aloo Tikki Hedge Funds
               </CardTitle>
               <CardDescription>
-                A brief, entirely serious history.
+                A brief history.
               </CardDescription>
             </CardHeader>
             <CardContent>
